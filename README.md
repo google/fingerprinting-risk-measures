@@ -34,17 +34,16 @@ Our analysis notebooks use openly published browser attributes data. To download
 Paper content and corresponding analysis files
 
 #### Section 4.1
-entropy_example_problems_simulated.ipynb
+[entropy_example_problems_simulated.ipynb](./entropy_example_problems_simulated.ipynb)
 
 #### Section 4.2:
-entropy_example_problems_empirical.ipynb
+[entropy_example_problems_empirical.ipynb](./entropy_example_problems_empirical.ipynb)
 
 #### Section 6.2: 
-comparing_entropy_empirical_analysis.ipynb
+[comparing_entropy_empirical_analysis.ipynb](./comparing_entropy_empirical_analysis.ipynb)
 
 #### Section 6.3:
-shannon_entropy_advanced_estimators.ipynb
+[shannon_entropy_advanced_estimators.ipynb](./shannon_entropy_advanced_estimators.ipynb)
 
 #### Appendix C (Entropy vs uniqueness):
-entropy_vs_unicity.ipynb
-
+[entropy_vs_unicity.ipynb](./entropy_vs_unicity.ipynb)
