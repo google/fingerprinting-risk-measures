@@ -45,5 +45,5 @@ Paper content and corresponding analysis files
 #### Section 6.3:
 [shannon_entropy_advanced_estimators.ipynb](./shannon_entropy_advanced_estimators.ipynb)
 
-#### Appendix C (Entropy vs uniqueness):
+#### Appendix F (Entropy vs uniqueness):
 [entropy_vs_unicity.ipynb](./entropy_vs_unicity.ipynb)
