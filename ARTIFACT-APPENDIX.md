@@ -23,7 +23,7 @@ comparing_entropy_empirical_analysis.ipynb
 Section 6.3:
 shannon_entropy_advanced_estimators.ipynb
 
-Appendix C (Entropy vs uniqueness):
+Appendix F (Entropy vs uniqueness):
 entropy_vs_unicity.ipynb
 
 
