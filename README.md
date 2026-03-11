@@ -26,24 +26,58 @@ measure. We evaluate Shannon, normalized, and Tsallis entropy
 with respect to the properties, and prove that only Tsallis entropy
 satisfies all of them.
 
-## Replicate the analysis
+## Instructions
 
-Our analysis notebooks use openly published browser attributes data. To download the data, follow instructions at https://doi.org/10.7910/DVN/0SGZFF. Save the file as `./survey-and-browser-attributes-data.csv`. Include this file in the same folder as the python notebooks.
+Start by cloning this repository:
+- `git clone git@github.com:google/fingerprinting-risk-measures.git` (SSH)
+- `git clone https://github.com/google/fingerprinting-risk-measures.git` (HTTPS)
 
+Then, follow these instructions:
+
+1. Build the Docker image:
+  ```bash
+  docker build -t fingerprinting-risk-measures:main .
+  ```
+
+2. Launch the Docker container, attach the current working directory (i.e.,
+  run from the root of the cloned git repository) as a volume, set the context
+  to be that volume, and provide an interactive bash terminal:
+  ```bash
+  docker run --rm -it -p 8888:8888 \
+      -v ${PWD}:/workspaces/fingerprinting-risk-measures \
+      -w /workspaces/fingerprinting-risk-measures \
+      --entrypoint bash fingerprinting-risk-measures:main
+  ```
+
+3. Launch the Jupyter server:
+  ```bash
+  jupyter notebook --ip 0.0.0.0 --no-browser
+  ```
+
+4. Open in your browser the Jupyter session link provided in the terminal
+  output (e.g., `http://127.0.0.1:8888/tree?token=......`) and execute the
+  cells of the notebooks of interest specified in the section below.
+
+### Replicate the analysis
+
+> NOTE: The analysis notebooks use openly published browser attributes data.
+> The data is available at https://doi.org/10.7910/DVN/0SGZFF. The notebooks
+> automatically download the data purely for convenience, as this specific
+> analysis complies with dataset Terms of Service (ToS).
 
 Paper content and corresponding analysis files
 
-#### Section 4.1
+##### Section 4.1
 [entropy_example_problems_simulated.ipynb](./entropy_example_problems_simulated.ipynb)
 
-#### Section 4.2:
+##### Section 4.2:
 [entropy_example_problems_empirical.ipynb](./entropy_example_problems_empirical.ipynb)
 
-#### Section 6.2: 
+##### Section 6.2: 
 [comparing_entropy_empirical_analysis.ipynb](./comparing_entropy_empirical_analysis.ipynb)
 
-#### Section 6.3:
+##### Section 6.3:
 [shannon_entropy_advanced_estimators.ipynb](./shannon_entropy_advanced_estimators.ipynb)
 
-#### Appendix F (Entropy vs uniqueness):
+##### Appendix F (Entropy vs uniqueness):
 [entropy_vs_unicity.ipynb](./entropy_vs_unicity.ipynb)
