@@ -1,6 +1,6 @@
 # README
 
-This repository contains the analysis code for the paper “An Improved Entropy Measure for Web Browser Fingerprinting Risk” published in the Proceedings of The Privacy Enhancing Technologies Symposium.
+This repository contains the analysis code for the paper “An Improved Entropy Measure for Web Browser Fingerprinting Risk” by Alex Berke, Enrico Bacis, and Umar Syed, published in the Proceedings of The Privacy Enhancing Technologies Symposium, 2026.
 
 ## Abstract
 
