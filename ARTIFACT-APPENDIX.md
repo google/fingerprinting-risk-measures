@@ -46,7 +46,7 @@ This work leverages an openly published dataset of fingerprinting signals collec
 
 ### Estimated Time and Storage Consumption
 
-* **Execution Time:** Approximately 30 human-minutes to set up the environment and execute the notebook cells, plus about 90 compute-hour to run the simulations and plot the full results. (Note: The statistical significance requires multiple runs per data point. The compute time can be lowered by reducing the `trials` variable within the notebooks, at the expense of higher variance).  
+* **Execution Time:** Approximately 30 human-minutes to set up the environment and execute the notebook cells, plus about 90 compute-minutes to run the simulations and plot the full results. (Note: The statistical significance requires multiple runs per data point. The compute time can be lowered by reducing the `trials` variable within the notebooks, at the expense of higher variance).  
 * **Storage Consumption:** \< 2 GB (The dataset is \~170 MB, and the Docker image requires minimal storage).
 
 ## Environment
